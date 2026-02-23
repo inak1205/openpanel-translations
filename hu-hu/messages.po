@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PROJECT project.
 # Stefan Pejčić <stefan@pejcic.rs>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr "Project-Id-Version: OpenPanel\nReport-Msgid-Bugs-To: stefan@pejcic.rs\nPOT-Creation-Date: 2026-02-20 19:03+0100\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: Csizmmár Norbert <inak1205@gmail.com>\nLanguage-Team: English <info@openpanel.com>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nGenerated-By: Babel 2.17.0"
 
