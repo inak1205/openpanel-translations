@@ -5,17 +5,7 @@
 #
 #, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: OpenPanel\n"
-"Report-Msgid-Bugs-To: stefan@pejcic.rs\n"
-"POT-Creation-Date: 2026-02-20 19:03+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Csizmmár Norbert <inak1205@gmail.com>\n"
-"Language-Team: English <info@openpanel.com>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+msgstr "Project-Id-Version: OpenPanel\nReport-Msgid-Bugs-To: stefan@pejcic.rs\nPOT-Creation-Date: 2026-02-20 19:03+0100\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: Csizmmár Norbert <inak1205@gmail.com>\nLanguage-Team: English <info@openpanel.com>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nGenerated-By: Babel 2.17.0"
 
 #: modules/autoinstaller.py:72 templates/dashboard/dashboard.html:142
 #: templates/manager/autoinstaller.html:7
@@ -175,7 +165,7 @@ msgstr "A DNS zóna sikeresen újraindult."
 
 #: modules/dns.py:393
 msgid "Failed to restart DNS zone: "
-msgstr "Nem sikerült újraindítani a DNS-zónát:"
+msgstr "Nem sikerült újraindítani a DNS-zónát: "
 
 #: modules/dns.py:398 modules/dns.py:400 modules/dns.py:470
 msgid "Please provide a domain name."
@@ -820,7 +810,7 @@ msgstr "Elérte az adatbázisok megengedett maximális számát."
 
 #: modules/postgresql.py:141
 msgid "Failed to create database: "
-msgstr "Nem sikerült létrehozni az adatbázist:"
+msgstr "Nem sikerült létrehozni az adatbázist: "
 
 #: modules/postgresql.py:260 modules/postgresql.py:854
 msgid "Invalid or missing user name."
@@ -1087,7 +1077,7 @@ msgstr "Hiba történt a WordPress leválasztása során."
 msgid ""
 "Scan completed. Found installations:\n"
 "\n"
-msgstr "A beolvasás befejeződött. Talált telepítések:"
+msgstr "A beolvasás befejeződött. Talált telepítések:\n\n"
 
 #: modules/wordpress.py:1257 templates/manager/wp/list.html:473
 msgid "Scan skipped. WordPress installation is currently running."
@@ -1297,9 +1287,7 @@ msgstr "OpenSearch"
 msgid ""
 "OpenSearch is an open-source, distributed search and analytics suite for "
 "large volumes of data. "
-msgstr ""
-"Az OpenSearch egy nyílt forráskódú, elosztott keresési és elemzési "
-"programcsomag nagy mennyiségű adathoz."
+msgstr "Az OpenSearch egy nyílt forráskódú, elosztott keresési és elemzési programcsomag nagy mennyiségű adathoz. "
 
 #: modules/cache/redis.py:23 templates/dashboard/dashboard.html:148
 msgid "Redis"
@@ -1546,7 +1534,7 @@ msgstr "A fájlok sikeresen feltöltve."
 
 #: modules/files/filemanager.py:245
 msgid "Some files failed: "
-msgstr "Néhány fájl nem sikerült:"
+msgstr "Néhány fájl nem sikerült: "
 
 #: modules/files/filemanager.py:249
 msgid "No files were uploaded"
@@ -1599,7 +1587,7 @@ msgstr "Belső szerverhiba letöltés közben."
 
 #: modules/files/filemanager.py:637
 msgid "Missing required form data for compression: "
-msgstr "Hiányoznak a tömörítéshez szükséges űrlapadatok:"
+msgstr "Hiányoznak a tömörítéshez szükséges űrlapadatok: "
 
 #: modules/files/filemanager.py:677
 msgid "Unsupported archive format."
@@ -1607,7 +1595,7 @@ msgstr "Nem támogatott archív formátum."
 
 #: modules/files/filemanager.py:684
 msgid "Archive creation failed: "
-msgstr "Az archívum létrehozása nem sikerült:"
+msgstr "Az archívum létrehozása nem sikerült: "
 
 #: modules/files/filemanager.py:690
 msgid "FILEMANAGER - Archive created successfully."
@@ -1635,7 +1623,7 @@ msgstr "A fájl sikeresen mentve"
 
 #: modules/files/filemanager.py:1022
 msgid "Error saving file: "
-msgstr "Hiba a fájl mentése közben:"
+msgstr "Hiba a fájl mentése közben: "
 
 #: modules/files/filemanager.py:1034
 #, python-brace-format
@@ -1644,7 +1632,7 @@ msgstr "A fájl túl nagy a szerkesztőben való megnyitáshoz (a korlát {} MB)
 
 #: modules/files/filemanager.py:1037 modules/files/filemanager.py:1170
 msgid "Error accessing file size: "
-msgstr "Hiba a fájlméret elérésekor:"
+msgstr "Hiba a fájlméret elérésekor: "
 
 #: modules/files/filemanager.py:1049
 msgid "Error reading file"
@@ -2478,7 +2466,7 @@ msgstr "Váltás erre:"
 
 #: templates/docker/change_webserver.html:11
 msgid "Change webserver for new domains to: "
-msgstr "Az új domainek webszerverének módosítása erre:"
+msgstr "Az új domainek webszerverének módosítása erre: "
 
 #: templates/docker/change_webserver.html:36
 msgid ""
@@ -2976,15 +2964,15 @@ msgstr "Domain"
 
 #: templates/domains/dns.html:281 templates/domains/dns.html:425
 msgid " Edit"
-msgstr "Szerkesztés"
+msgstr " Szerkesztés"
 
 #: templates/domains/dns.html:285
 msgid " Save"
-msgstr "Megtakarítás"
+msgstr " Megtakarítás"
 
 #: templates/domains/dns.html:287
 msgid " Cancel"
-msgstr "Mégsem"
+msgstr " Mégsem"
 
 #: templates/domains/dns.html:314
 #: templates/files/filemanager/permissions.html:38
@@ -2994,7 +2982,7 @@ msgstr "Erősítse meg"
 
 #: templates/domains/dns.html:323
 msgid " Delete"
-msgstr "Töröl"
+msgstr " Töröl"
 
 #: templates/domains/dns.html:334
 msgid "Deleting record, please wait."
@@ -3665,11 +3653,11 @@ msgstr "Tárolás"
 
 #: templates/emails/accounts.html:132
 msgid "Webmail for "
-msgstr "Weblevél"
+msgstr "Weblevél "
 
 #: templates/emails/accounts.html:132
 msgid " opened in new window."
-msgstr "Az új ablakban."
+msgstr " Az új ablakban."
 
 #: templates/emails/confirm_import.html:8 templates/emails/import.html:8
 msgid "Import Emails"
@@ -3828,7 +3816,7 @@ msgstr "Az e-mail kiszolgáló adatainak megjelenítése"
 msgid ""
 "How to setup your email client\n"
 "        "
-msgstr "Hogyan kell beállítani az e-mail kliens\n"
+msgstr "Hogyan kell beállítani az e-mail kliens\n        "
 
 #: templates/emails/info.html:32
 msgid "Secure SSL/TLS Settings"
@@ -3941,7 +3929,7 @@ msgstr "Nincs limit"
 
 #: templates/emails/single_account.html:101
 msgid "Maximum allowed: "
-msgstr "Maximális megengedett:"
+msgstr "Maximális megengedett: "
 
 #: templates/emails/single_account.html:154
 msgid "Receiving Incoming Mail"
@@ -5469,9 +5457,7 @@ msgstr "Az NPM telepítése az alkalmazás megkezdése előtt"
 msgid ""
 "When enabled, this option will first run npm install using the package.json "
 "file, then launch the application. "
-msgstr ""
-"Ha be van jelölve, ez az opció először futtatja az npm telepítését a "
-"package.json fájl használatával, majd elindítja az alkalmazást."
+msgstr "Ha be van jelölve, ez az opció először futtatja az npm telepítését a package.json fájl használatával, majd elindítja az alkalmazást. "
 
 #: templates/manager/pm2_install.html:481
 msgid "Application files will be stored in folder:"
@@ -5536,7 +5522,7 @@ msgstr "Csomagok telepítése"
 
 #: templates/manager/python_node_apps.html:188
 msgid " and custom port "
-msgstr "és egyedi port"
+msgstr " és egyedi port "
 
 #: templates/manager/python_node_apps.html:188
 msgid "on which the application is accessible from other services."
@@ -8446,11 +8432,11 @@ msgstr "WAF engedélyezése / kikapcsolása:"
 
 #: templates/system/waf_domain.html:66
 msgid " Disabled IDs"
-msgstr "Fogyatékos személyazonosítók"
+msgstr " Fogyatékos személyazonosítók"
 
 #: templates/system/waf_domain.html:67
 msgid " Disable rules by ID"
-msgstr "Az azonosító által letiltott szabályok"
+msgstr " Az azonosító által letiltott szabályok"
 
 #: templates/system/waf_domain.html:150
 msgid "Disabled Tags"
@@ -8495,7 +8481,7 @@ msgstr "Létrehozva"
 
 #: templates/user/active_sessions.html:70 templates/user/loginlog.html:76
 msgid "View activity log for IP "
-msgstr "Aktivitási napló megtekintése IP-hez"
+msgstr "Aktivitási napló megtekintése IP-hez "
 
 #: templates/user/active_sessions.html:70
 msgid "View activity logs"
